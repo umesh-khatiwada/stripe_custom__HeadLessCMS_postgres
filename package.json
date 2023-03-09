@@ -1,0 +1,35 @@
+{
+  "name": "my-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "workspaces": [
+    "./src/strapi-plugin-ckeditor"
+  ],
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi develop",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
+    "@strapi/plugin-i18n": "4.7.1",
+    "@strapi/plugin-users-permissions": "4.7.1",
+    "@strapi/provider-upload-cloudinary": "^4.7.1",
+    "@strapi/strapi": "4.7.1",
+    "better-sqlite3": "8.0.1",
+    "pg": "^8.10.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "842ae6dc-acc9-4648-b1ea-4d22068fe7d2"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
